@@ -1,4 +1,5 @@
 # LankaDrive Auto Sales (Pvt) Ltd - Official Website
+
 **Course Unit:** ITE 1713 Web Design 2025S1  
 **Assignment:** 01 - Multi-page Website Development  
 **Developer:** Sanija Sathnindu  
@@ -6,22 +7,22 @@
 ---
 
 ## 🚗 Project Overview
-[cite_start]This project is a modern, responsive website developed for **LankaDrive Auto Sales (Pvt) Ltd**, a premier car dealership based in Colombo, Sri Lanka[cite: 3]. [cite_start]The company specializes in brand new imports, reconditioned vehicles from Japan, and registered used vehicles[cite: 5, 6, 7].
+This project is a modern, responsive website developed for **LankaDrive Auto Sales (Pvt) Ltd**, a premier car dealership based in Colombo, Sri Lanka. The company specializes in brand new imports, reconditioned vehicles from Japan, and registered used vehicles.
 
-[cite_start]The website is built strictly using **HTML5 and CSS3** to fulfill the academic requirements of the ITE 1713 module[cite: 14].
+The website is built strictly using **HTML5 and CSS3** to fulfill the academic requirements of the ITE 1713 module.
 
 ## 📂 Folder Structure
-[cite_start]Following the "clear folder structure" requirement, the project is organized as follows[cite: 115, 116]:
+Following the "clear folder structure" requirement, the project is organized as follows:
 - `/` (Root): All HTML pages (index, about, vehicles, services, reviews, contact).
 - `/css`: Contains `style.css` for site-wide styling.
 - `/images`: Contains the company logo, vehicle gallery, and promotional banners.
-- [cite_start]`/media`: Contains the required audio/video customer testimonials[cite: 94].
+- `/media`: Contains the required audio/video customer testimonials.
 
 ## 🛠️ Features
-- [cite_start]**Vehicle Catalog:** Detailed listings for at least six vehicles including price in LKR, mileage, and transmission[cite: 67, 72, 73, 74].
-- [cite_start]**Interactive Inquiry Form:** Allows customers to book test drives or inquire about purchases using radio buttons and checkboxes[cite: 110, 112, 113].
-- [cite_start]**Consistent UI:** A shared header and footer across all pages containing the company logo, navigation, and contact details[cite: 27, 28, 41].
-- [cite_start]**Multimedia Integration:** Video/Audio testimonials included in the Customer Reviews section[cite: 94].
+- **Vehicle Catalog:** Detailed listings for at least six vehicles including price in LKR, mileage, and transmission.
+- **Interactive Inquiry Form:** Allows customers to book test drives or inquire about purchases using radio buttons and checkboxes.
+- **Consistent UI:** A shared header and footer across all pages containing the company logo, navigation, and contact details.
+- **Multimedia Integration:** Video/Audio testimonials included in the Customer Reviews section.
 
 ## 🚀 Development Plan
 1. **Phase 1:** Structure the directory and initialize Git version control.
