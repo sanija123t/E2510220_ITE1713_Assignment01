@@ -12,7 +12,7 @@
 # ==========================================
 # Standard Node / Web Project Rules
 # ==========================================
-# Logs
+# Logs #
 logs
 *.log
 npm-debug.log*
