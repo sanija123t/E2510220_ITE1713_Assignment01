@@ -31,8 +31,7 @@
 5. **Phase 5:** Testing multimedia playback and form validation.
 
 ## 🔗 Git Repository
-You can track the development progress and version history here:
-[Insert Your GitHub Link Here, e.g., https://github.com/SanijaS/LankaDrive-POS]
+You can track the development progress and version history here: https://github.com/sanija123t/E2510220_ITE1713_Assignment01.git
 
 ---
 *Developed as part of the Information Technology degree program.*
