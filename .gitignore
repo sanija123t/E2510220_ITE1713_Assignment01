@@ -118,7 +118,7 @@ dist
 # Firebase cache directory
 .firebase/
 
-# yarn v3
+# yarn v3 #
 .pnp.*
 .yarn/*
 !.yarn/patches
