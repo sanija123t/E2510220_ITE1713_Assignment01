@@ -22,8 +22,54 @@
         </nav>
     </header>
 
-    <main>
-        <p>Welcome to the main section.</p>
+    <main class="contact-container">
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> LankaDrive Auto Sales (Pvt) Ltd, Colombo 6, Sri Lanka.</p>
+            <p><strong>Phone:</strong> +94 11 1234567</p>
+            <p><strong>Email:</strong> info@lankadrive.com</p>
+        </section>
+
+        <section class="inquiry-form">
+        <h3>Send us an Inquiry</h3>
+        <form action="#" method="post"><fieldset id="Contactform-Fset"><legend>Contact Form</legend>
+            <div class="form-group">
+                <label>Full Name:</label>
+                <input type="text" name="fullname" required placeholder="Enter your full name">
+            </div>
+
+            <div class="form-group">
+                <label>Email Address:</label>
+                <input type="email" name="email" required placeholder="example@mail.com">
+            </div>
+
+            <div class="form-group">
+                <label>Contact Number:</label>
+                <input type="tel" name="phone" required placeholder="+94 7x xxx xxxx">
+            </div>
+
+            <div class="form-group">
+                <label>Vehicle Interested In:</label>
+                <input type="text" name="vehicle" required placeholder="e.g. Honda Civic 2022">
+            </div>
+
+            <div class="form-group">
+                <label>Message:</label><br>
+                <textarea name="message" rows="5"></textarea>
+            </div>
+
+            <div class="form-radio-group">
+                <label><input type="radio" name="purpose" value="buy" checked> Buy a vehicle</label>
+                <label><input type="radio" name="purpose" value="testdrive"> Request test drive</label>
+            </div>
+
+            <div class="form-checkbox-group">
+                <label><input type="checkbox" name="subscribe"> Subscribe to promotional offers</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Inquiry</button>
+        </fieldset></form>
+        </section>
     </main>
 
     <footer>
