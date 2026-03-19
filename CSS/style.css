@@ -9,7 +9,9 @@ body {
     background-color: #f0f2f5;
     color: #1a1a1b;
     line-height: 1.6;
-    min-height: 100vh; 
+    display: flex;               /*Footer dock to bottom - idea (Gemini)*/
+    flex-direction: column;     /*Footer dock to bottom - idea (Gemini)*/
+    min-height: 100vh;          /*Footer dock to bottom - idea (Gemini)*/
 }
 
 /* Header */
@@ -75,14 +77,15 @@ nav li a.active {
 
 /* Main */
 main {
+    width: 100%;    /*Visual fix - when empty*/
     max-width: 1200px;
     margin: 40px auto;
     padding: 20px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    min-height: 400px;
-    flex: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-height: 800px;
+    flex: 1;    /*Footer dock to bottom - idea (Gemini)*/
 }
 
 /* Footer */
