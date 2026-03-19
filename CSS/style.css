@@ -67,6 +67,12 @@ nav li a:hover {
     color: white;
 }
 
+nav li a.active {
+    background-color: #383a3d; 
+    color: white;
+    border-bottom: 4px solid #c57c28;
+}
+
 /* Main */
 main {
     max-width: 1200px;
