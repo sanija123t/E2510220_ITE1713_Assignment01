@@ -68,7 +68,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: #383a3d; 
+    background-color: #383a3d;  /*Small upgrade for User Experience - idea (Gemini)*/
     color: white;
     border-bottom: 4px solid #c57c28;
 }
