@@ -45,3 +45,8 @@ hr {
     font-weight: 500;
     color: #b31111;
 }
+.about-intro h1 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+    font-weight: 700;
+}

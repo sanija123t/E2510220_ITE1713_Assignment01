@@ -1,0 +1,118 @@
+.services-intro {
+    text-align: center;
+    padding: 40px auto;
+}
+
+.services-intro h1 {
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+
+.vehicle-leasing-assistance {
+    justify-content: space-around;
+    margin-bottom: 40px;
+    text-align: center;
+    height: auto;
+}
+
+.leasing-container {
+    width: 100%;
+    background-color: #ebe7cb;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    display: inline-block;
+    display: flex;
+    height: auto;
+}
+
+.insurance-arrangements {
+    justify-content: space-around;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.insurance-container {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    display: flex;
+}
+
+.test-drive-booking {
+    text-align: center;
+    padding: 20px;
+}
+
+.test-drive-container {
+    display: flex;
+    background-color: #ebe7cb;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+}
+
+.vehicle-registration-services {
+    text-align: center;
+    padding: 20px;
+}
+
+.registration-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+}
+
+.trade-in-options {
+    text-align: center;
+    padding: 20px;
+}
+
+.trade-in-container {
+    display: flex;
+    background-color: #ebe7cb;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+}
+
+.vehicle-inspection-reports {
+    text-align: center;
+    padding: 20px;
+}
+
+.inspection-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+}
+
+.leasing-container img, 
+.insurance-container img, 
+.test-drive-container img, 
+.registration-container img, 
+.trade-in-container img, 
+.inspection-container img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 15px;
+    align-items: left;
+    text-align: left;
+}
+
+hr {
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #0d47a1;
+    width: 80%;
+}
