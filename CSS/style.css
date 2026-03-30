@@ -9,9 +9,9 @@ body {
     background-color: #f0f2f5;
     color: #1a1a1b;
     line-height: 1.6;
-    display: flex;               /*Footer dock to bottom - idea (Gemini)*/
-    flex-direction: column;     /*Footer dock to bottom - idea (Gemini)*/
-    min-height: 100vh;          /*Footer dock to bottom - idea (Gemini)*/
+    display: flex;               /*Footer dock to bottom*/
+    flex-direction: column;     /*Footer dock to bottom*/
+    min-height: 100vh;          /*Footer dock to bottom*/
 }
 
 /* Header */
@@ -70,7 +70,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: #383a3d;  /*Small upgrade for User Experience - idea (Gemini)*/
+    background-color: #383a3d;  /*Small upgrade for User Experience*/
     color: white;
     border-bottom: 4px solid #c57c28;
 }
@@ -85,7 +85,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     min-height: 800px;
-    flex: 1;    /*Footer dock to bottom - idea (Gemini)*/
+    flex: 1;    /*Footer dock to bottom*/
 }
 
 /* Footer */
