@@ -1,0 +1,47 @@
+.about-intro {
+    text-align: center;
+    padding: 40px auto;
+}
+
+.about-intro p {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+hr {
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #0d47a1;
+    width: 80%;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.mission-vision h2 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.why-choose-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #b31111;
+}
