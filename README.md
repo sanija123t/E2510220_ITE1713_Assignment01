@@ -6,9 +6,6 @@
 
 ---
 
-## 🚗 Project Overview
-This project is a modern, responsive website developed for **LankaDrive Auto Sales (Pvt) Ltd**, a premier car dealership based in Colombo, Sri Lanka. The company specializes in brand new imports, reconditioned vehicles from Japan, and registered used vehicles.
-
 The website is built strictly using **HTML5 and CSS3** to fulfill the academic requirements of the ITE 1713 module.
 
 ## 📂 Folder Structure
@@ -24,15 +21,30 @@ Following the "clear folder structure" requirement, the project is organized as 
 - **Consistent UI:** A shared header and footer across all pages containing the company logo, navigation, and contact details.
 - **Multimedia Integration:** Video/Audio testimonials included in the Customer Reviews section.
 
-## 🚀 Development Plan
-1. **Phase 1:** Structure the directory and initialize Git version control.
-2. **Phase 2:** Develop the global Header and Footer with CSS Flexbox for consistency.
-3. **Phase 3:** Content population for the Home, About Us, and Services pages.
-4. **Phase 4:** Implementation of the Vehicle Listing grid and Contact Inquiry form.
-5. **Phase 5:** Testing multimedia playback and form validation.
-
 ## 🔗 Git Repository
 You can track the development progress and version history here: https://github.com/sanija123t/E2510220_ITE1713_Assignment01.git
 
 ---
 *Developed as part of the Information Technology degree program.*
+
+
+----Optional Notes Of Day----
+
+### Day 1
+Today I started planning the website structure and creating the pages. I will keep a short note for each day like this to add to the README file. I worked on the basic layout, navigation bar, and footer section. One of the main problems I faced was organizing the folder structure correctly, and the header and footer not docking to the top and bottom of the page.
+
+Sources chosen to get assets:
+ICONS: https://www.flaticon.com/  
+VIDEO: Google Flow  
+IMAGES: Need to generate according to the theme  
+
+Theme colors for site: White, Blue, Yellow (Dark / Dark Golden / Light)
+
+### Day 2
+Structuring completed. I created all pages and added the main structure to all. After that, I decided to do all alignment and decorations using external CSS and created independent CSS files for each page to keep the code clean. Also gathered and added raw materials to pages. But today I got a new problem when developing the contact form — the CSS properties I know are not enough to create what I have in mind, so I'm postponing development to review the module and refer to W3Schools.
+
+### Day 3
+After 11 days, I started development again. I arranged the order of developing pages according to complexity. I used the section tag to divide the main parts of pages, and groups of content were wrapped using div tags. Completed Contact, About Us, Services, and Reviews pages.
+
+### Day 4
+Completed Home and Vehicle Listings pages. Git updated. Requirements checked. Ready for submission.
