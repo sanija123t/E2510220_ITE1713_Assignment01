@@ -1,0 +1,120 @@
+.head-main img {
+    background-image: url('../images/banner.jpg');
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.head-main hr {
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #0d47a1;
+    width: 80%;
+}
+
+.head-main h1 {
+    font-size: 36px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.head-main p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #0d47a1;
+    width: 80%;
+}
+
+.vehicle-picture-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.vehicle-picture-row img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.vehicle-picture {
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.vehicle-picture p {
+    font-size: 18px;
+    color: #463403;
+    line-height: 1.6;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.more-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.more-img p {
+    font-size: 15px;
+    color: #463403;
+    line-height: 1.6;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.home-intro {
+    justify-content: center;
+    margin : 40px auto;
+    text-align: center;
+}
+
+.home-intro h2 {
+    font-size: 28px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+.home-intro p {
+    font-size: 18px;
+    color: #333;
+    margin: 30px 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.home-features {
+    justify-content: center;
+    margin : 40px auto;
+    text-align: center;
+}
+
+.home-features h2 {
+    font-size: 28px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+.home-features ul li , .home-features p {
+    font-size: 16px;
+    color: #333;
+    margin: 30px 0px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
