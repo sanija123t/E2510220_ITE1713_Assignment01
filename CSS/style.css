@@ -1,5 +1,5 @@
 ﻿* {
-    box-sizing: border-box;
+    box-sizing: border-box;        /* ensures padding doesn't increase total width */
 }
 
 body {
@@ -9,9 +9,9 @@ body {
     background-color: #f0f2f5;
     color: #1a1a1b;
     line-height: 1.6;
-    display: flex;               /*Footer dock to bottom*/
-    flex-direction: column;     /*Footer dock to bottom*/
-    min-height: 100vh;          /*Footer dock to bottom*/
+    display: flex;               /*Footer dock to bottom*/  /* enables flexbox for the main page layout */
+    flex-direction: column;     /*Footer dock to bottom*/   /* stacks header, main, and footer vertically */
+    min-height: 100vh;          /*Footer dock to bottom*/   /* ensures body takes full height of the screen */
 }
 
 /* Header */
@@ -31,18 +31,18 @@ header h1 {
     letter-spacing: -1px;
 }
 header h1 img.header-logo {
-    width: 50px !important;     /*Size reduced but not working (fixed)*/
-    height: 50px !important;    /*Size reduced but not working (fixed)*/
-    vertical-align: middle;
+    width: 50px !important;     /*Size reduced but not working (fixed)*/    /* forces specific width regardless of other rules */
+    height: 50px !important;    /*Size reduced but not working (fixed)*/    /* forces specific height regardless of other rules */
+    vertical-align: middle;     /* aligns the logo image with the text center */
     margin-right: 15px;
 }
 
 /* Navigation Bar */
 nav {
     background-color: #1c1e21; 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: sticky;       /* keeps the nav bar at the top of the viewport when scrolling */
+    top: 0;                 /* locks menu to the top of the viewport */
+    z-index: 1000;          /* ensures the nav bar stays above other content when scrolling */
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center;        /* centers the list items horizontally */
 }
 
 nav li a {
@@ -85,7 +85,7 @@ main {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     min-height: 800px;
-    flex: 1;    /*Footer dock to bottom*/
+    flex: 1;    /*Footer dock to bottom*/   
 }
 
 /* Footer */
@@ -95,5 +95,5 @@ footer {
     text-align: center;
     padding: 40px 0;
     margin-top: 60px;
-    border-top: 4px solid #007bff;
+    border-top: 4px solid #007bff;      /* adds a top border to separate from main content */
 }

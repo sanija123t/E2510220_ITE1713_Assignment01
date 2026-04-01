@@ -1,7 +1,7 @@
 .head-main img {
     background-image: url('../images/banner.jpg');
-    width: 100%;
-    height: auto;
+    width: 100%;                                    /* ensures the banner image fills the container width */
+    height: auto;                                   /* maintains the aspect ratio of the image */
     border-radius: 10px;
 }
 
@@ -37,8 +37,8 @@ hr {
 
 .vehicle-picture-row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;                /* centers the image vertically within the row */
+    justify-content: center;            /* centers the image horizontally within the row */
     margin-top: 5px;
 }
 

@@ -25,11 +25,11 @@ hr {
 }
 
 .vehicle-listing {
-    display: flex;
+    display: flex;              /* enables flexbox to align car cards in a row */
     flex-wrap: wrap;              /*refference : w3schools*/
     justify-content: center;
-    align-items: stretch;
-    gap: 30px;                   
+    align-items: stretch;       /* makes all cards in a row the same height */
+    gap: 30px;                   /* creates even spacing between all cards */
     margin-top: 30px;
     width: 90%;
     margin-left: auto;
@@ -52,8 +52,8 @@ hr {
     height: 200px;
     object-fit: contain;        /*refference : w3schools*/ 
     border-radius: 4px;
-    display: block;
-    margin: 0 auto 15px auto;
+    display: block;         /* removes extra bottom space under the image */
+    margin: 0 auto 15px auto;   /* centers the image and adds bottom spacing clockwise*/
 }
 
 .vehicle-card p {

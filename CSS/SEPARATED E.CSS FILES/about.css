@@ -19,7 +19,7 @@ hr {
 
 .mission-vision {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;      /* creates even spacing between the two columns */
     margin-bottom: 40px;
 }
 
@@ -35,7 +35,7 @@ hr {
 }
 
 .why-choose-us ul {
-    list-style: none;
+    list-style: none;               /* removes default bullet points for a cleaner look */
     padding: 0;
 }
 

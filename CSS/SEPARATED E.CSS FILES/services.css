@@ -9,7 +9,7 @@
 }
 
 .vehicle-leasing-assistance {
-    justify-content: space-around;
+    justify-content: space-around;              /* spreads content across the horizontal axis */
     margin-bottom: 40px;
     text-align: center;
     height: auto;
@@ -21,8 +21,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     padding: 20px;
-    display: inline-block;
-    display: flex;
+    display: inline-block;      
+    display: flex;        /* enables flexbox for image and text alignment */
     height: auto;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .test-drive-container {
-    display: flex;
+    display: flex;                          /* ensures horizontal layout for the section */
     background-color: #ebe7cb;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);

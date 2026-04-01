@@ -48,3 +48,6 @@ After 11 days, I started development again. I arranged the order of developing p
 
 ### Day 4
 Completed Home and Vehicle Listings pages. Git updated. Requirements checked. Ready for submission.
+
+### Day 5 Finalize code documentation and readability
+Added comments for css files to increase readability and Finalized assesment !!!!!!!!!!!!!!!!!!!
